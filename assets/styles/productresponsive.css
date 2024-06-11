@@ -1,0 +1,233 @@
+@media screen and (min-width:800px) {
+    .header1_col1{
+        display: block;
+        margin-left: 28px;
+    }
+    .header1_icons{
+        display: flex;
+    }
+    .bi-search2{
+        display: none;
+    }
+    .bi-cart3, .bi-person-circle{
+        display: block;
+    }
+    .fa-bars {
+        display: none;
+    }
+    /*  */
+    .header_line{
+        display: block;
+        border: 1px solid rgb(229, 229, 229);
+        margin: 0 24px;
+    }
+    /*  */
+    .navbar{
+        display: block;
+    }
+    /*  */
+    .section_content{
+        display: flex;
+        justify-content: start;
+        align-items: flex-end;
+        height: 209px;
+    }
+    section h1{
+        padding-bottom: 36px;
+        margin-left: 80px;
+    }
+    
+    /*  */
+    .dropdowns{
+        display: none;
+    }
+    /*  */
+    main{
+        display: flex;
+        justify-content: space-around;
+    }
+    nav{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav h5{
+        font-size: 16px;font-weight: 400;font-family: 'Clash';
+        color: var(--purple);
+        margin: 48px 0 20px 0;
+    }
+    nav label{
+        font-size: 16px;font-weight: 400;font-family: 'Satoshi';
+        color: var(--purple);
+        display: flex;
+        margin-left: 12px;
+        margin-top: -3px;
+        cursor: pointer;
+    }
+    nav span{
+        width: 150px;
+        display: flex;
+        padding-bottom: 12px;
+    }
+    /* Checkbox start */
+    nav input[type="checkbox"]{
+        appearance: none;
+        height: 16px;
+        width: 16px;
+        background-color: white;
+        border: 0.5px solid rgb(220, 220, 220);
+        border-radius: 2px;
+        
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;   
+    } 
+    nav input[type="checkbox"]:after{
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f00c";
+        font-size: 14px;
+        color: white;
+        display: none;
+    } 
+    nav input[type="checkbox"]:checked{
+        background-color: var(--purple);
+    } 
+    nav input[type="checkbox"]:checked::after{
+        display: block;
+    }
+     /* Checkbox end */
+     .card_container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) ;
+        grid-template-rows: repeat(3, 1fr);
+        gap: 36px 20px;
+        padding-top: 36px;
+    }
+    .card1 img, .card2 img, .card3 img, .card4 img, .card5 img,
+    .card6 img, .card7 img, .card8 img, .card9 img {
+        width: 305px;height: 375px;
+    }
+    .card9{
+        display: block;
+    }
+    #price_s{
+        font-size: 18px;font-family: 'Satoshi';font-weight: 400;
+        color:var(--purple);
+    }
+    #name_product{
+        font-size: 20px;font-family: 'Clash';font-weight: 400;
+        color: var(--purple);
+        padding: 24px 0 8px 0;
+    }
+    .btn_2{
+        display: block;
+        text-align: center;
+        margin-top: 32px;
+        margin-bottom: 36px;
+    }
+    article button{
+        font-size: 16px;font-family: 'Satoshi';font-weight: 400;
+        background-color: rgb(249, 249, 249);
+        border: none;
+        height: 56px;
+        margin: 29px 24px 0 24px;
+        width: 140px;
+    }
+    article button a{
+        color: var(--purple);
+    }
+    .btn_3{
+        display: none;
+    }
+    /*  */
+    .footer_cols{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer_col1{
+        display: flex;
+        gap: 109px;
+        padding: 58px 0 78.5px 82px;
+    }
+    .footer_col1 ul{
+        width: 108px;
+    }
+    .footer_col1 ul li{
+        margin-top: 12px;
+    }
+    .footer_col1 ul li h6{
+        font-size: 16px;font-family: 'Clash';font-weight: 400;
+        color: white;   
+    }
+    .footer_col1 ul li a{
+        font-size: 14px;font-family: 'Satoshi';font-weight: 400;
+        color: white;
+    }
+    .footer_col2{
+        padding: 58px 0 0 0;
+    }
+    .footer_col2 ul li h6{
+        font-size: 16px;font-family: 'Clash';font-weight: 400;
+        color: white;
+    }
+    .footer_col2 form{
+        display: flex;
+        width: 90%;height: 56px;
+        margin-top: 16px;
+    }
+    #email_footer{
+        width: 509px;height: 56px;
+        border: none;
+        background-color: rgb(74, 69, 102);
+    }
+    #email_footer[value]{
+        font-size: 16px;font-family: 'Satoshi';font-weight: 400;
+        padding-left: 32px;
+        color: white;
+    }
+    #signup_footer{
+        font-size: 16px;font-family: 'Satoshi';font-weight: 400;
+        background-color: white;
+        color: var(--purple);
+        border: none;
+        width: 118px;height: 56px;
+    }
+    .footer_line{
+        border: 1px solid rgb(78, 77, 147);
+        margin: 0 83px;
+    }
+    .footer_last{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer_last p{
+        font-size: 16px;font-family: 'Satoshi';font-weight: 400;
+        padding: 20px 80px;
+        color: white;
+    }
+    .footer_icons{
+        display: block;
+    }
+    .footer_icons ul{
+        display: flex;
+        gap: 24px;
+        padding: 20px 80px;
+    }
+    .footer_icons ul a{
+        color: white;
+        width: 24px;height: 24px;
+    }
+    }
+    @media screen and (max-width: 1300px){
+        #signup_footer, #email_footer{
+            display: none;
+        }
+    }
+    @media screen and (max-width: 800px){
+        #signup_footer, #email_footer{
+            display: block;
+        }
+    }

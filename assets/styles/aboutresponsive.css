@@ -1,0 +1,286 @@
+@media screen and (min-width:800px) {
+    .billboard_content1{
+        display: flex;
+        margin-left: 16px;
+    }
+    .billboard_content1 .fa-truck-fast{
+        color: white;
+        margin-top: 8px;
+        margin-right: 11px;
+    }
+    .billboard_content1 p{
+        margin: 8px 0;
+    }
+    .billboard_content2{
+        margin: 8px 16px;
+    }
+    /*  */
+    .header1_nav{
+        display: flex;
+    }
+    .header1_icons{
+        display: flex;
+    }
+    .bi-cart3, .bi-person-circle, .bi-search {
+        display: block;
+    }
+    .fa-bars {
+        display: none;
+    }
+    /*  */
+    .header2{
+        overflow: hidden;
+    }
+    .header2 ul{
+        display: flex;
+        justify-content: center;
+    }
+    .header2 li{
+        margin: 22px 0;
+    }
+    /*  */
+    .article{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .article h1{
+        font-size:36px;font-weight:400;font-family: 'Clash';
+        color: rgb(34, 32, 46);
+        margin: 0;
+        padding: 67px 0 79px 0;
+        width: 704px;
+    }
+    /*  */
+    .section6{
+        height: 603px;
+    }
+    .section6_cols{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .section6_col1{
+        margin:0 24px;
+        padding-left: 90px;
+    }
+    .section6_col1 h4{
+        font-size: 20px;font-family: 'Clash';font-weight: 400;
+        color: var(--purple);
+        padding-top: 70px;
+        margin-right: 92px;
+        margin-bottom: 25px;
+    
+    }
+    .section6_col1 p{
+        font-size: 14px;font-family: 'Satoshi';font-weight: 400;
+        color: var(--purple);
+        margin-top: 12px;
+        margin-bottom: 34px;
+    }
+    .section6 button{
+        width: 150px;
+    }
+    .section6 button a{
+        color: var(--purple);
+    }
+    .section6_col2{
+        padding-top: 0;
+        grid-row: span 2;
+    }
+    .section6_col2 img{
+        height: 603px;
+        width: 100%;
+    }
+    .btn_5{
+        grid-row: 2;
+        margin-left: 90px;
+    }
+    /*  */
+    .section7{
+        height: 603px;
+    }
+    .section7_cols{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .section7_col1{
+        margin:0 24px;
+        padding-left: 90px;
+    }
+    .section7_col1 h4{
+        font-size: 20px;font-family: 'Clash';font-weight: 400;
+        color: var(--purple);
+        padding-top: 70px;
+        margin-right: 92px;
+        margin-bottom: 25px;
+    
+    }
+    .section7_col1 p{
+        font-size: 14px;font-family: 'Satoshi';font-weight: 400;
+        color: var(--purple);
+        margin-top: 12px;
+        margin-bottom: 34px;
+    }
+    .section7 button{
+        width: 150px;
+    }
+    .section7 button a{
+        color: var(--purple);
+    }
+    .section7_col2{
+        padding-top: 0;
+        grid-row: span 2;
+    }
+    .section7_col2 img{
+        height: 603px;
+        width: 100%;
+    }
+    .btn_6{
+        margin-left: 90px;
+    }
+    /*  */
+    .section2{
+        height: 355px;
+    }
+    #section2_title{
+        text-align: center;
+        padding: 60px 92px 36px 24px;
+    }
+    .box1, .box2, .box3, .box4{
+        height: 124x;
+    }
+    .box_container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 24px;
+        margin-top: 10px;
+    }
+    /*  */
+    .section5{
+        height: 444px;
+        background-color: rgb(249, 249, 249);
+        text-align: center;
+        padding: 52px 40px 0 30px; 
+        background-color: goldenrod;
+    }
+    .input_container{
+        display: flex;
+        justify-content: center;
+    }
+    .input_container form{
+        margin-top: 20px;
+        padding-bottom: 40px;
+    }
+    #section5_title{
+        font-size: 36px;font-family: 'Clash';font-weight: 400;
+        color: white;
+    }
+    #section5_text{
+        font-size: 16px;font-family: 'Satoshi';font-weight: 400;
+        color: white;
+    }
+    .section5_checkbox {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 36px;
+    }
+    .section5_checkbox i{
+        color: white;
+        margin-right: 4px;
+    }
+    .section5_checkbox1 p{
+        font-size: 14px;font-family: 'Satoshi';font-weight: 400;
+        color: white;
+    }
+    .footer_cols{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer_col1{
+        display: flex;
+        gap: 109px;
+        padding: 58px 0 78.5px 82px;
+    }
+    .footer_col1 ul{
+        width: 108px;
+    }
+    .footer_col1 ul li{
+        margin-top: 12px;
+    }
+    .footer_col1 ul li h6{
+        font-size: 16px;font-family: 'Clash';font-weight: 400;
+        color: white;   
+    }
+    .footer_col1 ul li a{
+        font-size: 14px;font-family: 'Satoshi';font-weight: 400;
+        color: white;
+    }
+    .footer_col2{
+        padding: 58px 0 0 0;
+    }
+    .footer_col2 ul li h6{
+        font-size: 16px;font-family: 'Clash';font-weight: 400;
+        color: white;
+    }
+    .footer_col2 form{
+        display: flex;
+        width: 90%;height: 56px;
+        margin-top: 16px;
+    }
+    #email_footer{
+        width: 509px;height: 56px;
+        border: none;
+        background-color: rgb(74, 69, 102);
+    }
+    #email_footer[value]{
+        font-size: 16px;font-family: 'Satoshi';font-weight: 400;
+        padding-left: 32px;
+        color: white;
+    }
+    #signup_footer{
+        font-size: 16px;font-family: 'Satoshi';font-weight: 400;
+        background-color: white;
+        color: var(--purple);
+        border: none;
+        width: 118px;height: 56px;
+    }
+    .footer_line{
+        border: 1px solid rgb(78, 77, 147);
+        margin: 0 83px;
+    }
+    .footer_last{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer_last p{
+        font-size: 16px;font-family: 'Satoshi';font-weight: 400;
+        padding: 20px 80px;
+        color: white;
+    }
+    .footer_icons{
+        display: block;
+    }
+    .footer_icons ul{
+        display: flex;
+        gap: 24px;
+        padding: 20px 80px;
+    }
+    .footer_icons ul a{
+        color: white;
+        width: 24px;height: 24px;
+    }
+    
+}
+@media screen and (max-width: 1300px){
+    #signup_footer, #email_footer{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 800px){
+    #signup_footer, #email_footer{
+        display: block;
+    }
+}
